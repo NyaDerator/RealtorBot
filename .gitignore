@@ -1,0 +1,30 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+errors/
+
+# Alembic кэш
+alembic/versions/*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Секреты и настройки
+.env
+*.env
+
+# backup
+backup/
+tmp/
