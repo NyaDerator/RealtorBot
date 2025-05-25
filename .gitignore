@@ -30,4 +30,4 @@ backup/
 tmp/
 
 # SQLite
-bot.db
+*.db
