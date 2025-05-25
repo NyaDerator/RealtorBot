@@ -28,3 +28,6 @@ alembic/versions/*.pyc
 # backup
 backup/
 tmp/
+
+# SQLite
+bot.db

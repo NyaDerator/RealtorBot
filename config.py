@@ -1,7 +1,8 @@
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("TOKEN")
-ADMINS = list(map(int, os.getenv("ADMINS", "").split(",")))
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+DATABASE_URL = "sqlite:///bot.db"
+ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x]
