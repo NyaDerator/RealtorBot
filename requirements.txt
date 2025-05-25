@@ -1,0 +1,6 @@
+aiogram==3.4.1
+sqlalchemy==2.0.25
+python-dotenv==1.0.0
+pandas==2.1.4
+openpyxl==3.1.2
+requests==2.31.0
